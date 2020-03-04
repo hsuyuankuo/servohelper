@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
-echo 'begin pull from git'
+cd /var/www/html/servohelper
+git pull
 
 
 
