@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/html/servohelper
+cd /var/web/servohelper
 git pull
 
 

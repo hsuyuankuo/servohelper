@@ -6,7 +6,7 @@ $headers = apache_request_headers();
 
 if (hash_equals($sig_check, $headers['X-Hub-Signature']))
 {
-    $output = shell_exec( 'sh /var/www/html/servohelper/pull_servohelper.sh' );
+    $output = shell_exec( 'sh /var/web/servohelper/pull_servohelper.sh' );
     echo $output;	
 }
 else
