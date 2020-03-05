@@ -11,7 +11,7 @@ if (hash_equals($sig_check, $headers['X-Hub-Signature']))
 }
 else
 {
-    echo "fail.";
+    echo "failed.";
 }
 
 
