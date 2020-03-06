@@ -18,7 +18,9 @@ body {
 
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  color: black;
+  font-weight: bold;
 }
 
 #sidebar-wrapper .list-group {
@@ -31,6 +33,11 @@ body {
 
 #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
+}
+
+.p-title {
+  color: dimgray;
+  font-size: large;
 }
 
 @media (min-width: 768px) {
