@@ -11,8 +11,10 @@ rm /var/www/html/*.sh
 rm /var/www/html/*.md
 rm /var/www/html/payload.php
 rm /var/www/html/*.code-workspace
-ln -s /var/web/servohelper/payload.php /var/www/html/payload.php
-chown -R www-data:www-data /var/www/html/payload.php
+mkdir /var/www/html/servohelper
+chown -R www-data:www-data /var/www/html/servohelper
+ln -s /var/web/servohelper/payload.php /var/www/html/servohelper/payload.php
+chown -R www-data:www-data /var/www/html/servohelper/payload.php
 
 
 
