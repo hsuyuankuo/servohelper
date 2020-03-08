@@ -23,21 +23,20 @@
   <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="bg-light border-right p-title" id="sidebar-wrapper">
       <div class="sidebar-heading">台达伺服驱动器</div>
-      <div class="list-group list-group-flush">
+      <div class=" list-group-flush">
         <a href="#" class="list-group-item list-group-item-action bg-light">问题论坛</a>
       </div>       
       <div class="sidebar-heading">静态资料</div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">A3/B3 报警与排除</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">A3/B3-EtherCAT 常用参数</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">A3/B3-EtherCAT 运动状态</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">A3/B3-EtherCAT 常用OD</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">A3/B3-韧体下载</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">历史更新记录</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">A3 B3 报警与排除</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">A3 B3-EtherCAT 连线记置</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">A3 B3-EtherCAT 问题查找</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">A3 B3-CoE 402 OD </a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">A3 B3-韧体下载</a>
       </div> 
-    </div>
+    </div>    
     <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
@@ -70,21 +69,56 @@
           </ul>
         </div>
       </nav>
-
-      <div class="container-fluid">
-        <h1 class="mt-4">关于 wannaq.com，遇到台达伺服驱动器问题，想要问问题？ </h1>
-        <p></p>
-        <p >&nbsp;</p>
-        <p class="p-title">用途</p>
-        <p><code>快速查询台达-交流伺服驱动器的使用说明</code></p>
-        <p class="p-title">資料來源</p>
-        <p><code>个人使用经验，台达电子网站资料，百度，谷哥等搜寻器</code></p>
-        <P class="p-title">版权所有</P>
-        <p><code>原始资料所有权人</code></p>
-        <p class="p-title">免责声明</p>
-        <p><code>「wannaq.com」 (以下简称本网站)，任何浏览本网站的人士，须自行承担全部风险，本网站也不会负责任何因浏览或使用本网站而引致之损失。本网站可随时停止或变更网页资料及有关条款且无须事前通知用户。本网站可能会连接至其他机构所提供的网页，不会对这些网页内容作出任何保证或承担任何责任，使用者如浏览这些网页，将要自己承担后果。使用本网站之服务下载或取得任何资料应由用户自行考虑且自负风险，因前开任何资料之下载而导致用户电脑系统之任何损坏或资料流失，本网站不承担任何责任。</code></p>
+      <div  id="accordion" >
+        <div class="card margin-10" >
+          <div class="card-header  ">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              用途
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              快速查询台达-交流伺服驱动器的使用说明
+            </div>
+          </div>
+        </div>
+        <div class="card margin-10">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+              資料來源
+          </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              使用经验，台达电子网站资料，百度，谷哥等搜寻器
+            </div>
+          </div>
+        </div>
+        <div class="card margin-10">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              版权所有
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              原始资料所有权人
+            </div>
+          </div>
+        </div>
+        <div class="card margin-10">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              免责声明
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              「wannaq.com」 (以下简称本网站)，任何浏览本网站的人士，须自行承担全部风险，本网站也不会负责任何因浏览或使用本网站而引致之损失。本网站可随时停止或变更网页资料及有关条款且无须事前通知用户。本网站可能会连接至其他机构所提供的网页，不会对这些网页内容作出任何保证或承担任何责任，使用者如浏览这些网页，将要自己承担后果。使用本网站之服务下载或取得任何资料应由用户自行考虑且自负风险，因前开任何资料之下载而导致用户电脑系统之任何损坏或资料流失，本网站不承担任何责任。
+            </div>
+          </div>
+        </div>        
       </div>
-
      
     </div>
     <!-- /#page-content-wrapper -->

@@ -9,7 +9,7 @@ body {
 
 #sidebar-wrapper {
   min-height: 100vh;
-  margin-left: -15rem;
+  margin-left: -14rem;
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
@@ -24,7 +24,7 @@ body {
 }
 
 #sidebar-wrapper .list-group {
-  width: 15rem;
+  width: 14rem;
 }
 
 #page-content-wrapper {
@@ -37,7 +37,10 @@ body {
 
 .p-title {
   color: dimgray;
-  font-size: large;
+  font-size: medium;
+}
+.margin-10 {
+  margin: 10px;
 }
 
 @media (min-width: 768px) {
@@ -51,6 +54,6 @@ body {
   }
 
   #wrapper.toggled #sidebar-wrapper {
-    margin-left: -15rem;
+    margin-left: -14rem;
   }
 }
