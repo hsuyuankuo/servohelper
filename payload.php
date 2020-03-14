@@ -9,7 +9,7 @@ $headers = apache_request_headers();
 if (hash_equals($sig_check, $headers['X-Hub-Signature']))
 {
     echo "rsa checked\n";
-    $output = shell_exec( 'sudo sh /var/web/servohelper/pull_servohelper.sh' );
+    $output = shell_exec( 'sh /var/web/servohelper/pull_servohelper.sh' );
     echo $output;
 }
 else
