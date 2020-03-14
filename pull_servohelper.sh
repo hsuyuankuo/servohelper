@@ -4,7 +4,7 @@ cd /var/web/servohelper
 git pull
 
 
-cp -r * /var/www/html
+cp -r /var/web/servohelper/* /var/www/html
 rm /var/www/html/LICENSE
 rm /var/www/html/package*
 rm /var/www/html/*.sh
